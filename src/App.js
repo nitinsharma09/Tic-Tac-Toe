@@ -78,28 +78,28 @@ class App extends Component{
 
 	checkWinner(arr){
 		console.log("In Check");
-		if((arr[1]===arr[0]) && (arr[2]===arr[1]) && (arr[1]==='X' || arr[1]==='O')){
+		if((arr[1]===arr[0]) && (arr[2]===arr[1]) && (arr[1]=='X' || arr[1]=='O')){
 			this.edit(1);
 		}
-		else if((arr[3]===arr[4]) && (arr[5]===arr[4]) && (arr[4]==='X' || arr[4]==='O')){
+		else if((arr[3]===arr[4]) && (arr[5]===arr[4]) && (arr[4]=='X' || arr[4]=='O')){
 			this.edit(4);
 		}
-		else if((arr[6]===arr[7]) && (arr[8]===arr[7]) && (arr[7]==='X' || arr[7]==='O')){
+		else if((arr[6]===arr[7]) && (arr[8]===arr[7]) && (arr[7]=='X' || arr[7]=='O')){
 			this.edit(7);
 		}
-		else if((arr[0]===arr[4]) && (arr[4]===arr[8]) && (arr[0]==='X' || arr[0]==='O')){
+		else if((arr[0]===arr[4]) && (arr[4]===arr[8]) && (arr[0]=='X' || arr[0]=='O')){
 			this.edit(0);
 		}
-		else if((arr[2]===arr[4]) && (arr[4]===arr[6]) && (arr[2]==='X' || arr[2]==='O')){
+		else if((arr[2]===arr[4]) && (arr[4]===arr[6]) && (arr[2]=='X' || arr[2]=='O')){
 			this.edit(2);
 		}
-		else if((arr[0]===arr[3]) && (arr[3]===arr[6]) && (arr[0]==='X' || arr[0]==='O')){
+		else if((arr[0]===arr[3]) && (arr[3]===arr[6]) && (arr[0]=='X' || arr[0]=='O')){
 			this.edit(0);
 		}
-		else if((arr[1]===arr[4]) && (arr[4]===arr[7]) && (arr[1]==='X' || arr[1]==='O')){
+		else if((arr[1]===arr[4]) && (arr[4]===arr[7]) && (arr[1]=='X' || arr[1]=='O')){
 			this.edit(1);
 		}
-		else if((arr[2]===arr[5]) && (arr[5]===arr[8]) && (arr[2]==='X' || arr[2]==='O'))
+		else if((arr[2]===arr[5]) && (arr[5]===arr[8]) && (arr[2]=='X' || arr[2]=='O'))
 		{
 			this.edit(2);
 
