@@ -34,11 +34,11 @@ class Display extends Component{
 	}
 
 	render(){
-		if(this.props.counter===0)
+		if(this.props.counter==0)
 			return this.renderStart();
-		else if((this.props.counter!==0) && (this.props.counter < 9))
+		else if((this.props.counter!=0) && (this.props.counter < 9))
 			return this.renderContinue();
-		else if((this.props.counter > 8) && (this.props.wins==='0'))
+		else if((this.props.counter > 8) && (this.props.wins=='0'))
 			return this.renderDraw();
 		else
 		{
