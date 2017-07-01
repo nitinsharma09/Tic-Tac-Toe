@@ -25,7 +25,7 @@ class Display extends Component{
 		);
 	}
 
-	enderDraw(){
+	renderDraw(){
 		return(
 			<div id="winner">
 				<h3>Result is Draw </h3>
